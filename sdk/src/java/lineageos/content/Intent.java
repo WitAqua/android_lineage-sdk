@@ -1,18 +1,6 @@
 /*
- * Copyright (C) 2015 The CyanogenMod Project
- * This code has been modified.  Portions copyright (C) 2010, T-Mobile USA, Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * SPDX-FileCopyrightText: 2015 The CyanogenMod Project
+ * SPDX-License-Identifier: Apache-2.0
  */
 
 package lineageos.content;
@@ -77,17 +65,6 @@ public class Intent {
      */
     public static final String EXTRA_LID_STATE =
             "lineageos.intent.extra.LID_STATE";
-
-    /**
-     * Broadcast Action: Update preferences for the power menu dialog. This is to provide a
-     * way for the preferences that need to be enabled/disabled to update because they were
-     * toggled elsewhere in the settings (ie screenshot, user switcher, etc) so we don't have
-     * to do constant lookups while we wait for the menu to be created. Getting the values once
-     * when necessary is enough.
-     *@hide
-     */
-    public static final String ACTION_UPDATE_POWER_MENU =
-            "lineageos.intent.action.UPDATE_POWER_MENU";
 
     /**
      * Broadcast action: notify SystemUI that LiveDisplay service has finished initialization.
